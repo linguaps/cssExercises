@@ -1,0 +1,25 @@
+body {
+    border: 5px solid red;
+    display: block;
+    height: 100vh;
+}
+
+footer {
+    border: 5px solid blue;
+    margin-top: 20rem;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-family: 'Bitter', serif;
+}
+
+footer p {
+
+    font-family: 'Open Sans', sans-serif;
+}
+
+
