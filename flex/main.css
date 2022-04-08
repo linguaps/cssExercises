@@ -1,0 +1,95 @@
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+header {
+    background-image: url(/images/bg.jpeg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.1) 74%, rgba(0,0,0,0.88) 100%, rgba(0,0,0,0.88) 100%), url('images/bg.jpeg');
+    
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+* { 
+    box-sizing: inherit;   
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    
+}
+
+li {
+    list-style: none;
+    margin: 5px;
+   
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+
+}
+
+
+ form {
+    align-items: center;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; 
+ }   
+
+ #netflix {
+    
+    width: 100%;
+ }
+
+ h1, h2, p {
+     color: azure;
+ }
+
+ #lang {
+     background-color: transparent;
+     color: aliceblue;
+     margin-top: 20px;
+     margin-right: 50px;
+     padding: 10px;
+ }
+
+
+ #sign {
+    border-radius: 0.5rem;
+    margin-top: 40px;
+    border: 5px solid red;
+    background: red;
+    padding: 5px, 10px;
+    color: aliceblue;
+    
+ }
+
+input {
+    padding: 2rem 1rem;
+    width: 30rem;
+}
+
+
+
+ 
+ 
+
